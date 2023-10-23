@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link data-n-head="ssr" data-hid="shortcut-icon" rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="path/to/your/output.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="main-menu h-screen bg-opacity-10 backdrop-blur-md">
+        <div class="main-menu-background bg-gradient-to-b from-black to-black/70 bg-cover" style="background-image: url(../logInBackground.jpg);">
+          <!-- Background image content -->
+    <header class="main-header-navbar elevation-0 flex items-center  h-32 max-h-32">
+        <div class="w-full h-32 justify-end">
+            <div class="row no-gutters">
+                <div class="flex col">
+                    <!---->
+                </div>
+                <div class="flex justify-between justify-self-end pl-96 pt-16 col ml-52 h-130 max-h-130">
+                    <div class="main-header-navbar-logo flex">
+                        <a href="/es/" class="nuxt-link-active">
+                            <img src="/images/newheader/logoWhite.png" alt="Logo" loading="lazy" class="max-w-300 items-center justify-center">
+                        </a>
+                    </div>
+                
+                <div class="flex justify-end col">
+                    <div class="flex pl-0 items-center">
+                        <img src="/icons/world.webp" alt="world" width="32" height="32" loading="lazy" class="mr-2 cursor-pointer">
+                        <div class="v-menu">
+                            <!---->
+                        </div>
+                        <img src="/icons/newIcons/usuario.svg" alt="user icon" height="32" width="32" loading="lazy" class="mr-0 filter-white cursor-pointer">
+                        <div class="v-overlay theme-dark z-5">
+                            <div class="v-overlay__scrim opacity-0 bg-gray-900 border-gray-900"></div>
+                        </div>
+                    </div>
+                    <div class="main-header-navbar-actions-second pl-5">
+                        <img src="https://www.plusholidays.com/icons/header/iconHamburguerWhite.svg" width="60" height="60" alt="menu" loading="lazy" class="mr-8">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  
+          <div class="container mx-auto pt-16 box-inherit">
+              <div class="h-70 bg-opacity-50 backdrop-blur-md rounded p-8 max-w-lg mx-auto">
+                  <input
+                      id="input-38"
+                      placeholder="Tu email de PlusHolidays"
+                      type="text"
+                      value=""
+                      class="h-20 border border-gray-300 rounded-3xl px-4 py-2 w-full focus:outline-none focus:border-indigo-500"
+                  />
+                  <div class="text-red-500 mt-2">Este campo es requerido.</div>
+  
+                  <input
+                      id="input-41"
+                      placeholder="Tu contraseña de PlusHolidays"
+                      type="password"
+                      value=""
+                      class="h-20 border border-gray-300 rounded-3xl px-4 py-2 w-full focus:outline-none focus:border-indigo-500"
+                  />
+                  <div class="text-red-500 mt-2">Este campo es requerido.</div>
+  
+                  <button type="button" class="h-16 w-80 px-8 py-8 mt-11 mb-6 bg-green-400 border-green-400 rounded-lg hover:bg-green-500 text-white text-xs text-uppercase-important">
+                    ACCEDER A TU CUENTA
+                  </button>
+                  
+  
+                  <a href="/es/contrasenna/solicitar/" class="mt-4 text-green-500 text-15 font-normal">
+                      ¿No recuerdas tu contraseña?
+                  </a>
+  
+                  <div class="mt-5 mb-3 text-center">
+                      <span class="text-white">
+                          ¿No tienes una cuenta aún? Puedes
+                          <a class="text-teal-500 underline" href="#">
+                              crear una aquí
+                          </a>
+                      </span>
+                      <button class="main-login-rrss font-poppins-regular py-2 px-4 bg-black bg-opacity-25 text-white rounded-lg flex items-center">
+                        Acceder con Google
+                        <img src="https://www.plusholidays.com/icons/newIcons/google.svg" alt="Google Icon" class="ml-2 w-6 h-6" />
+                      </button>
+                      
+                      
+                      
+                      
+                      
+                      <button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg v-btn--rounded theme--light v-size--default main-login-rrss py-8 ml-3 px-7 font-poppins-regular" data-v-fc86cf76="" data-v-b39b4e8e="">
+                        <span class="v-btn__content">
+                          Acceder con Facebook
+                          <i aria-hidden="true" class="v-icon notranslate ml-5 icon icon-iconoph_facebook theme--light white--text text-white text-28" data-v-fc86cf76=""></i>
+                        </span>
+                      </button>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </body>
+  </html>
+  
